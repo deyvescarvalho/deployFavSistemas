@@ -1,5 +1,5 @@
-xcopy /S /E "C:\Fav Sistemas\DadosTeste*.*" "C:\Fav Sistemas\DadosTeste\bkp"
+xcopy /S /E /Y "C:\FAV Sistemas\Dados*.*" "C:\FAV Sistemas\bkp"
 git pull origin master
 
-START C:\favsistemas\testedeploy\FAVPAF.exe
+START C:\"FAV Sistemas"\FAVPAF.exe
 EXIT
